@@ -726,7 +726,7 @@ export function useAcquisitionSimulation() {
         duration: 7.8 
       })
       addFile({ id: "f13", name: "AP-2026-00001_ai_report.json", type: "file", language: "json", status: "created" })
-      addFile({ id: "f14", name: "final_rankings.json", type: "file", language: "json", status: "created" })
+      addFile({ id: "f14", name: "final_rankings.json", type: "file", language: "json", status: "created", url: "/outputs/final_rankings.json" })
     })
 
     // ==================== AGENT 5: Document Generator ====================
@@ -785,7 +785,7 @@ export function useAcquisitionSimulation() {
       updateAgentSubtask(docAgentId, 1, { status: "complete" })
       updateAgentSubtask(docAgentId, 2, { status: "running" })
       updateAgent(docAgentId, { progress: { current: 2, total: 5 } })
-      addFile({ id: "f15", name: "investment_memo.docx", type: "file", language: "docx", status: "created" })
+      addFile({ id: "f15", name: "AP-2026-00001_Investment_Memo.docx", type: "file", language: "docx", status: "created", url: "/outputs/AP-2026-00001_Investment_Memo.docx" })
       addToolToAgent(docAgentId, {
         id: weasprintId,
         name: "weasyprint",
@@ -808,8 +808,8 @@ export function useAcquisitionSimulation() {
       updateAgentSubtask(docAgentId, 2, { status: "complete" })
       updateAgentSubtask(docAgentId, 3, { status: "running" })
       updateAgent(docAgentId, { progress: { current: 3, total: 5 } })
-      addFile({ id: "f16", name: "executive_summary.pdf", type: "file", language: "pdf", status: "created" })
-      addFile({ id: "f17", name: "ai_opportunity_report.pdf", type: "file", language: "pdf", status: "created" })
+      addFile({ id: "f16", name: "AP-2026-00001_Executive_Summary.pdf", type: "file", language: "pdf", status: "created", url: "/outputs/AP-2026-00001_Executive_Summary.pdf" })
+      addFile({ id: "f17", name: "AP-2026-00001_AI_Opportunity_Report.pdf", type: "file", language: "pdf", status: "created", url: "/outputs/AP-2026-00001_AI_Opportunity_Report.pdf" })
       addToolToAgent(docAgentId, {
         id: pptxId,
         name: "python_pptx",
@@ -832,7 +832,7 @@ export function useAcquisitionSimulation() {
       updateAgentSubtask(docAgentId, 3, { status: "complete" })
       updateAgentSubtask(docAgentId, 4, { status: "running" })
       updateAgent(docAgentId, { progress: { current: 4, total: 5 } })
-      addFile({ id: "f18", name: "lender_presentation.pptx", type: "file", language: "pptx", status: "created" })
+      addFile({ id: "f18", name: "AP-2026-00001_Lender_Presentation.pptx", type: "file", language: "pptx", status: "created", url: "/outputs/AP-2026-00001_Lender_Presentation.pptx" })
       addToolToAgent(docAgentId, {
         id: writeEmailId,
         name: "write",
@@ -857,7 +857,7 @@ export function useAcquisitionSimulation() {
         progress: { current: 5, total: 5 },
         duration: 11.3 
       })
-      addFile({ id: "f19", name: "outreach_email.txt", type: "file", language: "txt", status: "created" })
+      addFile({ id: "f19", name: "AP-2026-00001_Outreach_Email.txt", type: "file", language: "txt", status: "created", url: "/outputs/AP-2026-00001_Outreach_Email.txt" })
     })
 
     // Final message

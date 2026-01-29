@@ -59,6 +59,7 @@ export interface FileItem {
   language?: string
   status: 'created' | 'modified' | 'pending'
   children?: FileItem[]
+  url?: string
 }
 
 export type ModelType = 'opus' | 'sonnet' | 'haiku'

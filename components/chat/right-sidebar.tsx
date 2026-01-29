@@ -224,11 +224,18 @@ export function RightSidebar({
                   <button
                     key={file.id}
                     type="button"
-                    onClick={() => onFileClick?.(file)}
+                    onClick={() => {
+                      if (file.url) {
+                        window.open(file.url, '_blank')
+                      } else {
+                        onFileClick?.(file)
+                      }
+                    }}
                     className={cn(
                       "w-full flex items-center gap-2 px-2 py-1.5 text-left hover:bg-muted/50 transition-colors group",
                       file.type === "folder" ? "pl-2" : "pl-5",
-                      file.status === "pending" && "opacity-50"
+                      file.status === "pending" && "opacity-50",
+                      file.url && "cursor-pointer hover:bg-primary/10"
                     )}
                   >
                     {getFileIcon(file)}

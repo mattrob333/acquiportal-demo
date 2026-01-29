@@ -1,0 +1,194 @@
+{
+  "thesis_id": "thesis-2026-001",
+  "scored_at": "2026-01-29T12:00:00Z",
+  "total_analyzed": 20,
+  "rankings": [
+    {
+      "rank": 1,
+      "acquiportal_id": "AP-2026-00001",
+      "company_name": "Marietta HVAC Services",
+      "location": {
+        "city": "Marietta",
+        "state": "GA"
+      },
+      "composite_score": 84,
+      "score_breakdown": {
+        "financial_health": 78,
+        "ai_opportunity": 82,
+        "owner_situation": 88,
+        "market_position": 85,
+        "deal_structure": 90
+      },
+      "financials": {
+        "asking_price": 1200000,
+        "ttm_revenue": 1800000,
+        "ttm_sde": 385000,
+        "sde_margin": 0.214,
+        "sde_multiple": 3.12
+      },
+      "key_strengths": [
+        "Strong SDE margin (21%)",
+        "High AI improvement potential ($265K value creation)",
+        "Motivated seller (62yo, no succession)",
+        "Fair asking price (3.1x SDE)"
+      ],
+      "key_risks": [
+        "Owner is sole salesperson",
+        "No formal systems/processes"
+      ],
+      "recommendation": "STRONG BUY",
+      "ai_value_creation": 265000
+    },
+    {
+      "rank": 2,
+      "acquiportal_id": "AP-2026-00002",
+      "company_name": "Comfort Pro Plumbing",
+      "location": {
+        "city": "Alpharetta",
+        "state": "GA"
+      },
+      "composite_score": 79,
+      "score_breakdown": {
+        "financial_health": 82,
+        "ai_opportunity": 68,
+        "owner_situation": 92,
+        "market_position": 72,
+        "deal_structure": 78
+      },
+      "financials": {
+        "asking_price": 890000,
+        "ttm_revenue": 1200000,
+        "ttm_sde": 275000,
+        "sde_margin": 0.229,
+        "sde_multiple": 3.24
+      },
+      "key_strengths": [
+        "Owner retiring (age 64), highly motivated",
+        "Strong SDE margin (23%)",
+        "Clean financials, no adjustments needed",
+        "Loyal repeat customer base"
+      ],
+      "key_risks": [
+        "Limited growth (flat revenue 3 years)",
+        "Aging fleet needs replacement"
+      ],
+      "recommendation": "BUY",
+      "ai_value_creation": 145000
+    },
+    {
+      "rank": 3,
+      "acquiportal_id": "AP-2026-00003",
+      "company_name": "Metro Mechanical",
+      "location": {
+        "city": "Kennesaw",
+        "state": "GA"
+      },
+      "composite_score": 76,
+      "score_breakdown": {
+        "financial_health": 85,
+        "ai_opportunity": 65,
+        "owner_situation": 70,
+        "market_position": 82,
+        "deal_structure": 72
+      },
+      "financials": {
+        "asking_price": 1500000,
+        "ttm_revenue": 2100000,
+        "ttm_sde": 420000,
+        "sde_margin": 0.200,
+        "sde_multiple": 3.57
+      },
+      "key_strengths": [
+        "Includes owned real estate ($400K value)",
+        "Excellent reviews (4.8 stars, 512 reviews)",
+        "Larger operation with growth momentum",
+        "Commercial + residential mix"
+      ],
+      "key_risks": [
+        "Higher asking price reduces ROI",
+        "Owner wants to stay on as manager",
+        "Customer concentration in commercial"
+      ],
+      "recommendation": "BUY",
+      "ai_value_creation": 180000
+    },
+    {
+      "rank": 4,
+      "acquiportal_id": "AP-2026-00004",
+      "company_name": "Southern Comfort HVAC",
+      "location": {
+        "city": "Roswell",
+        "state": "GA"
+      },
+      "composite_score": 71,
+      "score_breakdown": {
+        "financial_health": 68,
+        "ai_opportunity": 75,
+        "owner_situation": 72,
+        "market_position": 70,
+        "deal_structure": 68
+      },
+      "financials": {
+        "asking_price": 750000,
+        "ttm_revenue": 980000,
+        "ttm_sde": 210000,
+        "sde_margin": 0.214,
+        "sde_multiple": 3.57
+      },
+      "key_strengths": [
+        "Strong AI opportunity (no technology)",
+        "Motivated seller (health reasons)",
+        "Under $1M price point"
+      ],
+      "key_risks": [
+        "Declining revenue trend",
+        "Key technician recently left",
+        "Below average reviews (3.8 stars)"
+      ],
+      "recommendation": "CONDITIONAL BUY",
+      "ai_value_creation": 125000
+    },
+    {
+      "rank": 5,
+      "acquiportal_id": "AP-2026-00005",
+      "company_name": "Precision Air Solutions",
+      "location": {
+        "city": "Smyrna",
+        "state": "GA"
+      },
+      "composite_score": 68,
+      "score_breakdown": {
+        "financial_health": 72,
+        "ai_opportunity": 60,
+        "owner_situation": 65,
+        "market_position": 75,
+        "deal_structure": 65
+      },
+      "financials": {
+        "asking_price": 650000,
+        "ttm_revenue": 850000,
+        "ttm_sde": 185000,
+        "sde_margin": 0.218,
+        "sde_multiple": 3.51
+      },
+      "key_strengths": [
+        "Entry-level price point",
+        "Good reviews (4.5 stars)",
+        "Growing service area"
+      ],
+      "key_risks": [
+        "Smaller scale limits SBA eligibility",
+        "Owner wants quick close (30 days)",
+        "Limited documentation"
+      ],
+      "recommendation": "HOLD - Request more info",
+      "ai_value_creation": 95000
+    }
+  ],
+  "summary": {
+    "total_value_identified": 810000,
+    "average_ai_opportunity": 162000,
+    "deals_above_threshold": 3,
+    "recommended_priority": ["AP-2026-00001", "AP-2026-00002", "AP-2026-00003"]
+  }
+}
