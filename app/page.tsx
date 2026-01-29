@@ -8,6 +8,7 @@ import { LeftSidebar } from "@/components/chat/left-sidebar"
 import { RightSidebar } from "@/components/chat/right-sidebar"
 import { TeamConstructionCard } from "@/components/chat/team-construction-card"
 import { SaveTeamPrompt } from "@/components/chat/save-team-prompt"
+import { DocumentsReadyCard } from "@/components/chat/documents-ready-card"
 import type { RecentChat, KnowledgeDoc, SavedTeam, TeamAgent } from "@/lib/types"
 import { Play, RotateCcw, Sparkles, Bot, Zap, GitBranch, Rocket, BarChart3, FileText, Search } from "lucide-react"
 
@@ -307,6 +308,11 @@ export default function SwarmChat() {
                         />
                       </div>
                     </div>
+                  )}
+
+                  {/* Documents Ready Card - shown after completion */}
+                  {!isPlaying && files.some(f => f.url) && (
+                    <DocumentsReadyCard files={files} />
                   )}
                 </>
               )}
