@@ -63,7 +63,7 @@ export function ToolCallCard({ tool, onToggle }: ToolCallCardProps) {
       <button
         type="button"
         onClick={() => setExpanded(!expanded)}
-        className="w-full flex items-center gap-3 p-3 text-left hover:bg-muted/30 transition-colors"
+        className="w-full flex items-center gap-2 sm:gap-3 p-2 sm:p-3 text-left hover:bg-muted/30 transition-colors"
       >
         {/* Tool icon */}
         <div className="w-8 h-8 flex items-center justify-center border border-border rounded-md bg-background font-mono text-[10px]">
@@ -95,7 +95,7 @@ export function ToolCallCard({ tool, onToggle }: ToolCallCardProps) {
 
       {/* Expanded content */}
       {expanded && (
-        <div className="border-t border-border p-3 space-y-3 animate-in fade-in slide-in-from-top-2 duration-200">
+        <div className="border-t border-border p-2 sm:p-3 space-y-2 sm:space-y-3 animate-in fade-in slide-in-from-top-2 duration-200">
           {/* Input */}
           <div className="space-y-1.5">
             <div className="flex items-center justify-between">

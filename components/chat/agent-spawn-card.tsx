@@ -47,7 +47,7 @@ export function AgentSpawnCard({ agent, onToggleTool }: AgentSpawnCardProps) {
   return (
     <div
       className={cn(
-        "border-l-2 pl-4 ml-10 animate-in fade-in slide-in-from-left-4 duration-300",
+        "border-l-2 pl-2 sm:pl-4 ml-4 sm:ml-10 animate-in fade-in slide-in-from-left-4 duration-300",
         config.borderColor
       )}
     >
@@ -56,7 +56,7 @@ export function AgentSpawnCard({ agent, onToggleTool }: AgentSpawnCardProps) {
         <button
           type="button"
           onClick={() => setExpanded(!expanded)}
-          className="w-full flex items-center gap-3 p-3 text-left hover:bg-muted/30 transition-colors"
+          className="w-full flex items-center gap-2 sm:gap-3 p-2 sm:p-3 text-left hover:bg-muted/30 transition-colors"
         >
           {/* Agent icon */}
           <div
@@ -100,7 +100,7 @@ export function AgentSpawnCard({ agent, onToggleTool }: AgentSpawnCardProps) {
 
         {/* Expanded content */}
         {expanded && (
-          <div className="border-t border-border p-3 space-y-3 animate-in fade-in duration-200">
+          <div className="border-t border-border p-2 sm:p-3 space-y-2 sm:space-y-3 animate-in fade-in duration-200">
             {/* Progress bar */}
             <div className="space-y-1.5">
               <div className="flex items-center justify-between text-xs">

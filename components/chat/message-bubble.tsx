@@ -24,8 +24,8 @@ export function MessageBubble({ message, onToggleTool }: MessageBubbleProps) {
     >
       <div
         className={cn(
-          "flex gap-3",
-          isUser ? "flex-row-reverse max-w-[70%]" : "flex-row max-w-[85%]"
+          "flex gap-2 sm:gap-3",
+          isUser ? "flex-row-reverse max-w-[85%] sm:max-w-[70%]" : "flex-row max-w-[95%] sm:max-w-[85%]"
         )}
       >
         {/* Avatar */}
